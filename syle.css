@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.head_logo {
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  border-bottom: 2px solid black !important;
+}
+
+.nav-item {
+  font-size: 18px;
+  margin: 0 15px 0 15px;
+}
+
+.home {
+  padding-top: 60px;
+}
+
+.main_head h1 {
+  font-size: 40px;
+  text-align: left;
+  padding-left: 20px;
+  font-style: bold;
+}
+
+.main_head p {
+  font-size: 16px;
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.main_head button {
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+.main-img img {
+  height: 400px;
+  width: 300px;
+  display: block;
+  margin: 0px auto;
+}
+
+.heading h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 120px;
+  font-weight: bold;
+}
+
+.card-main {
+  margin: 35px;
+  width: 300px;
+  height: 320px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-main .card-body .card-title {
+  margin: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-main .card-body .card-text {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  text-shadow: rgb(44, 43, 39) 1px 0 1px;
+  text-align: left;
+}
+
+.card-mainemp {
+  margin: 35px;
+  height: 360px;
+  width: 320px;
+  border: none;
+}
+
+.card-mainemp img {
+  height: 144px;
+  width: 200px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.card-mainemp .card-body .card-title {
+  margin: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-mainemp .card-body .card-text {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  text-shadow: rgb(44, 43, 39) 1px 0 1px;
+  text-align: left;
+}
+
+.card-product {
+  margin-top: 50px;
+  border: none;
+}
+
+.card-product .card-body img {
+  height: 50px;
+  width: 60px;
+  margin-right: 15px;
+}
+
+.card-product .card-body .card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-product .card-body .card-text {
+  font-size: 15px;
+}
+
+.card-product .card-body button {
+  margin: 20px 0 0 20px;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+.feedback_card {
+  margin-top: 50px;
+  height: auto;
+  background: #F8FAFC 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 42px;
+  opacity: 1;
+}
+
+.feedback_card h3 {
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.feedback_card img {
+  height: 62px;
+  width: 63px;
+  margin: 20px;
+}
+
+.feedback_card .row {
+  margin: 40px 50px 0 50px;
+}
+
+.feedback_card .card-product {
+  margin: 10px auto;
+  height: 290px;
+  width: 300px;
+  background: #F8FAFC 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 42px;
+  opacity: 1;
+}
+
+.feedback_card .card-product img {
+  height: 43px;
+  width: 42px;
+}
+
+.feedback_card .card-product .card-title {
+  font-size: 14px;
+}
+
+.feedback_card .card-product .card-title i {
+  color: goldenrod;
+}
+
+.card-logo {
+  height: 250px;
+  width: 300px;
+  display: flex;
+  margin: 50px auto;
+  border: none;
+}
+
+.card-logo img {
+  height: 100px;
+  width: 120px;
+  display: flex;
+  margin: 29px auto;
+}
+
+.card-logo .card-body .card-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer {
+  height: 300px;
+  width: 100%;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 760px) {
+  .head_logo img {
+    height: 50px;
+    width: 150px;
+  }
+  .main_head h1 {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .main_head p {
+    font-size: 14px;
+  }
+  .main-img img {
+    margin: 30px auto;
+  }
+  .main_head button {
+    margin: 20px;
+  }
+  .heading h1 {
+    font-size: 23px;
+  }
+  .card-logo {
+    margin: 25px auto;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .feedback_card img {
+    margin: 10px 0 10px 0;
+  }
+}
+@media screen and (max-width: 380px) {
+  .feedback_card .card-product .card-title i {
+    font-size: 8px;
+  }
+  .card-product .card-body img {
+    margin-right: 7px;
+  }
+}/*# sourceMappingURL=syle.css.map */
